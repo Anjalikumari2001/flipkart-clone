@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Flipkart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-logo">
+          <div class="logo"></div>
+        </div> 
+        
+    
+        <div class="nav-search">
+          <input
+            placeholder="Search for products,brands and more"
+            class="search-input"
+          />
+          <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div>
+          <a class="account" href="">Login</a>
+        </div>
+        <div>
+          <a class="account1" href="">Become a Seller</a>
+        </div>
+        <div>
+                <a href="" class="more">More</a>
+            </div>
+        <div>
+          <select name="ab" id="ab" class="more">
+            <option value="ab">More</option>
+          </select>
+        </div>
+        <!-- <div>
+                <select name="mores" id="mores">
+                    <option value="one">Notification Preferences</option>
+                    <option value="two">24x7 Customer Care</option>
+                    <option value="three">Advertise</option>
+                    <option value="four">Download App</option>
+                </select>
+            </div> -->
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div>
+            <a href="" class="cart">Cart</a>
+          </div>
+        </div>
+      </div>
+    <section>
+      <table>
+        <tr>
+          <td>
+            <div
+              class="Grocery"
+              style="
+                height: 44px;
+                width: 44px;
+                margin-right: 100px;
+                margin-left: 100px;
+              "
+            >
+              <img loading="lazy" src="pic1.webp" alt="grocery" />
+              <div class="name">Grocery</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="Mobiles"
+              style="height: 44px; width: 44px; margin-right: 100px"
+            >
+              <img loading="lazy" src="pic2.webp" alt="Mobiles" />
+              <div class="name">Mobiles</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="Fashion"
+              style="height: 44px; width: 44px; margin-right: 100px"
+            >
+              <img loading="lazy" src="pic3.webp" alt="Fashion" />
+              <select name="ab" id="ab">
+                <option value="ab">Fashion</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div
+              class="Electronics"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="pic4.webp" alt="Electronics" />
+              <div class="name">Electronics</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="Home"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img
+                loading="lazy"
+                src="Home&Furniture.webp"
+                alt="Home & Furniture"
+              />
+              <select name="ab" id="ab">
+                <option value="ab">Home & Furniture</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div
+              class="appliances"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="appliances.webp" alt="Appliances" />
+              <div class="name">Appliances</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="travel"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="travel.webp" alt="Travel" />
+              <div class="name">Travel</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="offers"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="top offers.webp" alt="Top Offers" />
+              <div class="name">Top Offers</div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="beauty"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="beauty.webp" alt="Beauty " />
+              <select name="ab" id="abc">
+                <option value="ab">Beauty,Toys&More</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div
+              class="Wheelers"
+              style="height: 54px; width: 54px; margin-right: 100px"
+            >
+              <img loading="lazy" src="two wheels.webp" alt="Two Wheelers" />
+              <select name="ab" id="ab">
+                <option value="ab">Two Wheelers</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+      <!-- <div class="container">
+            <div class="Grocery" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="pic1.webp" alt="grocery">
+                <div class="name">Grocery</div>
+               
+            </div>
+            <div class="Mobiles" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="pic2.webp" alt="Mobiles">
+                <div class="name1">Mobiles</div>
+            </div>
+            <div class="Fashion" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="pic3.webp" alt="Fashion">
+                <div class="name2">Fashion</div>
+            </div>
+            <div class="Electronics" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="pic4.webp" alt="Electronics">
+                <div class="name3">Electronics</div>
+            </div>
+            <div class="Home" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="Home&Furniture.webp" alt="Home & Furniture">
+                <div class="name4">Home & Furniture</div>
+            </div>
+            <div class="appliances" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="appliances.webp" alt="Appliances">
+                <div class="name5">Appliances</div>
+            </div>
+            <div class="travel" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="travel.webp" alt="Travel">
+                <div class="name6">Travel</div>
+            </div>
+            <div class="offers" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="top offers.webp" alt="Top Offers">
+                <div class="name7">Top Offers</div>
+            </div>
+            <div class="beauty" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="beauty.webp" alt="Beauty " >
+                <div class="name8">Beauty,Toys & More</div>
+            </div>
+            <div class="Wheelers" style="height: 64px; width: 64px;">
+                <img  loading="lazy" src="two wheels.webp" alt="Two Wheelers">
+                <div class="name9">Two Wheelers</div>
+            </div>
+
+        </div>
+         -->
+    </header>
+    <!-- <img class="slide" src="https://rukminim1.flixcart.com/fk-p-flap/50/50/image/e03dea66e961a32d.jpg?q=50" alt="A"> -->
+    <section>
+      <div class="slide"></div>
+    </section>
+    <!-- <div class="electronic" >
+        <h2 class="text1">Best Of Electronics</h2>
+        <div >
+            <a  class="all" href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&wid=3.dealC%20ard.OMU_3&otracker=hp_omu_Best%2Bof%2BElectronics_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3">VIEW ALL</a>
+            <img class="ec" src="Electro1.webp" alt="pic1" width="200px" height="200px" margin:auto>
+                     <tr><img class="ec" src="img1.webp" alt="pic2" width="200px" height="200px"></tr>
+                    <tr><img class="ec" src="Dryer.webp" alt="pic3" width="200px" height="200px"></tr>
+                    <tr><img class="ec" src="monitor.webp" alt="pic4" width="200px" height="200px"></tr> -->
+
+    <!-- </div>
+        
+     
+    </div> -->
+    
+  <section>
+    <div class="ec">
+      <div class="box">
+        <h2 class="text1">Best Of Electronics</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&wid=3.dealC%20ard.OMU_3&otracker=hp_omu_Best%2Bof%2BElectronics_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="img1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Printers</div>
+        <div class="des">From ₹3999</div>
+        <div class="nam">Lenovo</div>
+      </div>
+
+      <div class="box1">
+        <img src="Dryer.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Best Of Hair Dryers</div>
+        <div class="des">From ₹549</div>
+        <div class="nam">realme, Philips & more</div>
+      </div>
+      <div class="box1">
+        <img src="monitor.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Monitors</div>
+        <div class="des">From ₹9999</div>
+        <div class="nam">SAMSUNG</div>
+      </div>
+      <div class="box1">
+        <img src="camera.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Top Mirrorless Cameras</div>
+        <div class="des">Shop Now!</div>
+        <div class="nam">Canon, Sony, Fujifilm...</div>
+      </div>
+    </div>
+  </section>
+    <div class="fashion">
+      <div class="box-fashion">
+        <h2 class="text1">Fashion Best Sellers</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/offers-list/fashion-best-sellers?screen=dynamic&pk=themeViews%3DDT-OMU-A7%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&wid=39.dealCard.OMU_20&otracker=hp_omu_Fashion%2BBest%2BSellers_20&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Fashion%2BBest%2BSellers_NA_wc_view-all_20"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="shirt.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Ketch, Mast & Harbour..</div>
+        <div class="des">From ₹399</div>
+        <div class="nam">Shirts,Trousers</div>
+      </div>
+
+      <div class="box1">
+        <img src="kurti.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Anmi, Divastri & more</div>
+        <div class="des">60-90% Off</div>
+        <div class="nam">Kurta, Sarees &amp; more</div>
+      </div>
+      <div class="box1">
+        <img src="kids.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Ketch, Mast & Harbour..</div>
+        <div class="des">From ₹199</div>
+        <div class="nam">Shirts,Trousers</div>
+      </div>
+      <div class="box1">
+        <img src="fashion1.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Anand Sarees</div>
+        <div class="des">Shop Now!</div>
+        <div class="nam">Printed Silk Saree...</div>
+      </div>
+    </div>
+
+    <div class="grocery">
+      <div class="box-grocery">
+        <h2 class="text1">Top Food Items</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/all/~cs-ef0139aeed0a0023c6e9a0af3e39258a/pr?sid=eat,ltb,ngb&marketplace=FLIPKART&restrictLocale=true&fm=personalisedRecommendation%2FC5&iid=R%3Ag%3Bpt%3Ahp%3Buid%3A39df83d3-1c1e-11ee-8242-61c8270a600d%3B.cid%3AS_F_N_eat_ltb_ngb__d_50-100__NONE_ALL%3Bnid%3Aeat_ltb_ngb_%3Bet%3AS%3Beid%3Aeat_ltb_ngb_%3Bmp%3AF%3Bct%3Ad%3Bat%3ADEFAULT%3B&ppt=hp&ppn=homepage&ssid=nqf3fu05m80000001688662240779&otracker=hp_reco_Essentials%2Bfor%2BHer_2_22.dealCard.OMU_cid%3AS_F_N_eat_ltb_ngb__d_50-100__NONE_ALL%3Bnid%3Aeat_ltb_ngb_%3Bet%3AS%3Beid%3Aeat_ltb_ngb_%3Bmp%3AF%3Bct%3Ad%3Bat%3ADEFAULT%3B_13&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2FC5_Essentials%2Bfor%2BHer_DESKTOP_HORIZONTAL_dealCard_cc_2_NA_view-all_13&cid=cid%3AS_F_N_eat_ltb_ngb__d_50-100__NONE_ALL%3Bnid%3Aeat_ltb_ngb_%3Bet%3AS%3Beid%3Aeat_ltb_ngb_%3Bmp%3AF%3Bct%3Ad%3Bat%3ADEFAULT%3B"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="grocery1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Kadak Tea</div>
+        <div class="des">From ₹369</div>
+        <div class="nam">Tea Powder</div>
+      </div>
+
+      <div class="box1">
+        <img src="grocery2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Dry Fruits</div>
+        <div class="des">60-90% Off</div>
+        <div class="nam">Happilo,Farmely..</div>
+      </div>
+      <div class="box1">
+        <img src="grocery3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Soan Papdi</div>
+        <div class="des">From ₹199</div>
+        <div class="nam">Bikaji,Haldiram's&more</div>
+      </div>
+      <div class="box1">
+        <img src="grocery4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Set Of Snacks</div>
+        <div class="des">Shop Now!</div>
+        <div class="nam">Good Taste,Good Life</div>
+      </div>
+    </div>
+
+    <div class="monsoon">
+      <div class="box-monsoon">
+        <h2 class="text1">Monsoon Essentials</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/offers-list/monsoon-essentials?screen=dynamic&pk=contentTags%3DMonsoon_Essentials~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART&wid=17.dealCard.OMU_9&otracker=hp_reco_Monsoon%2BEssentials_9&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2FC5_Monsoon%2BEssentials_DESKTOP_HORIZONTAL_wc_view-all_9"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="monsoon1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Winter Blankets</div>
+        <div class="des">From ₹769</div>
+      </div>
+
+      <div class="box1">
+        <img src="monsoon2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Summer Hand Sleeves</div>
+        <div class="des">60-90% Off</div>
+      </div>
+      <div class="box1">
+        <img src="monsoon3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Raincoats</div>
+        <div class="des">From ₹699</div>
+      </div>
+      <div class="box1">
+        <img src="monsoon4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Mosquito Nets</div>
+        <div class="des">Shop Now!</div>
+      </div>
+    </div>
+
+    <div class="furniture">
+      <div class="box-furniture">
+        <h2 class="text1">Best Home Furnitures</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/india-ka-furniture-studio-store?fm=neo%2Fmerchandising&iid=M_f36c641a-469b-4408-9c6b-93841a06b70a_1_372UD5BXDFYS_MC.Q6I8NGK1VUG9&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BFurnishings_Q6I8NGK1VUG9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=Q6I8NGK1VUG9"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="furniture1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Queen Beds</div>
+        <div class="des">From ₹6769</div>
+        <div class="nam">HomeEdge,Induscraft&More</div>
+      </div>
+
+      <div class="box1">
+        <img src="furniture2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Portable Laptop Table</div>
+        <div class="des">From ₹299</div>
+        <div class="nam">Wooden,Metal&More</div>
+      </div>
+      <div class="box1">
+        <img src="furniture3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">L Shaped Sofas</div>
+        <div class="des">From ₹18,699</div>
+        <div class="nam">Bharat Lifestyle</div>
+      </div>
+      <div class="box1">
+        <img src="furniture4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Royal Chairs</div>
+        <div class="des">From ₹8699</div>
+        <div class="nam">Modern&Trendy</div>
+      </div>
+    </div>
+
+    <div class="baby">
+      <div class="box-baby">
+        <h2 class="text1">Best Baby's Care & Toys</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/search?q=baby%20care&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="baby1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Huggies Comfort Dry Pant</div>
+        <div class="des">From ₹369</div>
+        <div class="nam">Baby Diaper-L size</div>
+      </div>
+
+      <div class="box1">
+        <img src="baby2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Baby's Cream</div>
+        <div class="des">From ₹99</div>
+        <div class="nam">From Himalaya</div>
+      </div>
+      <div class="box1">
+        <img src="baby3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Mickey Mouse Soft Cushion</div>
+        <div class="des">From ₹699</div>
+        <div class="nam">Size-45 cm</div>
+      </div>
+      <div class="box1">
+        <img src="toy.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Pink Teddy Bear</div>
+        <div class="des">Upto 60% off</div>
+        <div class="nam">From Sun Creation</div>
+      </div>
+    </div>
+
+    <div class="care">
+      <div class="box-care">
+        <h2 class="text1">Hair And Skin Care</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/search?q=hair%20and%20skin%20care&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="care1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Nivea Body Lotion</div>
+        <div class="des">From ₹340</div>
+        <div class="nam">Pack of 2(400ml&120ml)</div>
+      </div>
+
+      <div class="box1">
+        <img src="care2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Indulekha Bhringa Hair Oil</div>
+        <div class="des">From ₹199</div>
+        <div class="nam">50 ml</div>
+      </div>
+      <div class="box1">
+        <img src="care3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Mammaearth onion hair care</div>
+        <div class="des">From ₹999</div>
+        <div class="nam">(3 items in the sets)</div>
+      </div>
+      <div class="box1">
+        <img src="care4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">SET WET Styling Hair Gel for men</div>
+        <div class="des">Upto 60% off</div>
+        <div class="nam">50 g</div>
+      </div>
+    </div>
+
+    <div class="tv">
+      <div class="box-tv">
+        <h2 class="text1">Top Deals on TV's & Appliances</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/offers-list/top-deals-on-tvs-appliances?screen=dynamic&pk=themeViews%3DDT-OMU-A5%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&wid=36.dealCard.OMU_13&otracker=hp_omu_Top%2BDeals%2BOn%2BTVs%2B%2526%2BAppliances_13&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Top%2BDeals%2BOn%2BTVs%2B%2526%2BAppliances_NA_wc_view-all_13"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="appl1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Semi Automatic Washing Machine</div>
+        <div class="des">Buy Now</div>
+        <div class="nam">From ₹6990</div>
+      </div>
+
+      <div class="box1">
+        <img src="appl2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Samsung Convertible 5-in-1</div>
+        <div class="des">From ₹32,999</div>
+        <div class="nam">1 Ton 3 Star Split</div>
+      </div>
+      <div class="box1">
+        <img src="appl3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Single Door Refrigerator</div>
+        <div class="des">From ₹9990</div>
+        <div class="nam">Samsung,LG....</div>
+      </div>
+      <div class="box1">
+        <img src="appl4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Samsung Crystal 4K ismart Series</div>
+        <div class="des">From ₹30,999</div>
+        <div class="nam">80cm(32 inch)</div>
+      </div>
+    </div>
+
+    <div class="home">
+      <div class="box-home">
+        <h2 class="text1">Home & Kitchen Essentials</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/offers-list/home-kitchen-essentials?screen=dynamic&pk=themeViews%3DDT-OMU-4%3ADeal~widgetType%3DdealCard~contentType%3Dneo&wid=18.dealCard.OMU_10&otracker=hp_omu_Home%2B%2526%2BKitchen%2BEssentials_10&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Home%2B%2526%2BKitchen%2BEssentials_NA_wc_view-all_10"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="home.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Diyas,Candles & Holders</div>
+        <div class="des">Upto 80% off</div>
+        <div class="nam">Big Discounts</div>
+      </div>
+
+      <div class="box1">
+        <img src="home1.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Clocks</div>
+        <div class="des">Upto 80% off</div>
+        <div class="nam">Big Discounts</div>
+      </div>
+      <div class="box1">
+        <img src="home2.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Spiritual Items</div>
+        <div class="des">Upto 80% off</div>
+        <div class="nam">Big Discounts</div>
+      </div>
+      <div class="box1">
+        <img src="home3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Live Plants</div>
+        <div class="des">From ₹199</div>
+        <div class="nam">Best Selling</div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="box-mobile">
+        <h2 class="text1">Mobile Phones Deals</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_ddf99fd8-91a0-4c24-860f-82d862195f41_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="mobile1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">VIVO T2X</div>
+        <div class="des">From ₹12,999</div>
+        <div class="nam">5G(Golden)</div>
+      </div>
+
+      <div class="box1">
+        <img src="mobile2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">POCO X5</div>
+        <div class="des">From ₹17,999</div>
+        <div class="nam">Premium Leather Like Design</div>
+      </div>
+      <div class="box1">
+        <img src="mobile3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">VIVO T2X in Black</div>
+        <div class="des">Upto 20% off</div>
+        <div class="nam">Big Discounts</div>
+      </div>
+      <div class="box1">
+        <img src="mobile4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Infinix 5G</div>
+        <div class="des">From ₹8999</div>
+        <div class="nam">Note 12 Pro</div>
+      </div>
+    </div>
+
+    <div class="shoes">
+      <div class="box-shoes">
+        <h2 class="text1">Pick Your Style</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/mens-footwear/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Footwear&fm=neo%2Fmerchandising&iid=M_849c3d59-6d02-467d-adc6-9d348fc3e5d4_1_372UD5BXDFYS_MC.PR9Y9GHWCY6G&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2BFootwear_PR9Y9GHWCY6G&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=PR9Y9GHWCY6G"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="shoes1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">aadi Synthetic Leather</div>
+        <div class="des">From ₹499</div>
+        <div class="nam">size:2,3,4,5,7,8</div>
+      </div>
+
+      <div class="box1">
+        <img src="shoes2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Footup Slippers</div>
+        <div class="des">From ₹399</div>
+        <div class="nam">size:5,7,8</div>
+      </div>
+      <div class="box1">
+        <img src="shoes3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Carlton London</div>
+        <div class="des">Women High Heels Sandal</div>
+        <div class="nam">From ₹1699</div>
+      </div>
+      <div class="box1">
+        <img src="shoes4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Bruton</div>
+        <div class="des">From ₹299</div>
+        <div class="nam">Men Black Sandal</div>
+      </div>
+    </div>
+
+    <div class="sport">
+      <div class="box-sport">
+        <h2 class="text1">Sports & Fitness Store</h2>
+        <div>
+          <a
+            class="all"
+            href="https://www.flipkart.com/sport-store?otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store"
+            >VIEW ALL</a
+          >
+        </div>
+      </div>
+      <div class="box1">
+        <img src="sport1.webp" alt="pic2" width="200px" height="200px" />
+        <div class="naam">Top Quality Store Tummy Trimmer</div>
+        <div class="des">From ₹359</div>
+        <div class="nam">Big Discounts</div>
+      </div>
+
+      <div class="box1">
+        <img src="sport2.webp" alt="pic3" width="200px" height="200px" />
+        <div class="naam">Kiwi Premium Carrom Board</div>
+        <div class="des">From ₹949</div>
+        <div class="nam">Medium Size</div>
+      </div>
+      <div class="box1">
+        <img src="sport3.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Mayor Sammy-3 Football</div>
+        <div class="des">From ₹259</div>
+        <div class="nam">Best Selling</div>
+      </div>
+      <div class="box1">
+        <img src="sport4.webp" alt="pic4" width="200px" height="200px" />
+        <div class="naam">Home GYM Combo</div>
+        <div class="des">From ₹489</div>
+        <div class="nam">upto 50% off</div>
+      </div>
+
+  <section class="section-4 container">
+        <div class="sport">
+            <div class="box-sport">
+              <a
+              class="all"
+              href="https://www.flipkart.com/sport-store?otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store&otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store"
+              >VIEW ALL</a>
+            </div>
+            <div class="section-4-list">
+                <div class="box1">
+                  <img src="sport4.webp" alt="pic4" width="200px" height="200px" />
+                    <div class="section-4-item-head">Soft Toy</div>
+                    <div class="section-4-item-price">Under ₹299</div>
+                    <div class="section-4-item-explore">Explore Now!</div>
+                </div>
+                <div class="box1">
+                    <img src="https://rukminim1.flixcart.com/image/400/400/kn0n6a80/remote-control-toy/i/t/l/mini-racing-4-channel-radio-control-rc-car-miss-chief-original-imagfs8264ewfmnw.jpeg?q=70" alt="">
+                    <div class="section-4-item-head">Soft Toy</div>
+                    <div class="section-4-item-price">Under ₹299</div>
+                    <div class="section-4-item-explore">Explore Now!</div>
+                </div>
+                <div class="box1">
+                    <img src="https://rukminim1.flixcart.com/image/400/400/l51d30w0/television/1/k/j/-original-imagfsyu8nrz5gzg.jpeg?q=70" alt="">
+                    <div class="section-4-item-head">Remote Control Toys</div>
+                    <div class="section-4-item-price">Min 50% Off</div>
+                    <div class="section-4-item-explore">Explore Now!</div>
+                </div>
+                <div class="box1">
+                    <img src="https://rukminim1.flixcart.com/image/400/400/khuvxjk0-0/mouse/l/t/6/zeb-transformer-m-zebronics-original-imafxrugfftphbkk.jpeg?q=70" alt="">
+                    <div class="section-4-item-head">Top Smart TVs</div>
+                    <div class="section-4-item-price">Buy Now</div>
+                    <div class="section-4-item-explore">Explore Now!</div>
+                </div>
+                
+            </div>
+        </div>
+  </section>
+    
+  <section class="section1">
+    <footer>
+      
+        <div class="footpanel">
+            <ul>
+                <p class="pa">ABOUT</p>
+                <a href="https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks" class="an">Contact Us</a>
+                <a href="https://corporate.flipkart.net/corporate-home" class="an">About Us</a>
+                <a href="https://www.flipkartcareers.com/?otracker=undefined_footer_navlinks#!/" class="an">Careers</a>
+                <a href="https://stories.flipkart.com/?otracker=undefined_footer_navlinks" class="an">Flipkart Stories</a>
+                <a href="https://stories.flipkart.com/category/top-stories/news/" class="an">Press</a>
+                <a href="https://www.flipkartwholesale.com/?otracker=undefined_footer_navlinks" class="an">Flipkart Wholesale</a>
+                <a href="https://www.flipkart.com/corporate-information"class="an">Corporate Information</a>
+            </ul>
+
+            <ul>
+                <p class="pa">HELP</p>
+                <a href="https://www.flipkart.com/pages/payments"class="an">Payments</a>
+                <a href="https://www.flipkart.com/pages/shipping"class="an">Shipping</a>
+                <a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG"class="an">Cancellation & Returns</a>
+                <a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG"class="an">FAQ</a>
+                <a href="https://seller.flipkart.com/?referral_url=%2Ffiv%3Fotracker%3Dundefined_footer_navlinks"class="an">Report Infringement</a>
+                
+            </ul>
+
+            <ul>
+                <p class="pa">CONSUMER POLICY</p>
+                <a href="https://www.flipkart.com/pages/returnpolicy?otracker=undefined_footer_navlinks"class="an">Return Policy</a>
+                <a href="https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks"class="an">Terms Of Use</a>
+                <a href="https://www.flipkart.com/pages/paymentsecurity?otracker=undefined_footer_navlinks"class="an">Security</a>
+                <a href="https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks"class="an">Privacy</a>
+                <a href="https://www.flipkart.com/sitemap?otracker=undefined_footer_navlinks"class="an">Sitemap</a>
+                <a href="https://www.flipkart.com/pages/grievance-redressal-mechanism?otracker=undefined_footer_navlinks"class="an">Grievance Redressal</a>
+                <a href="https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks"class="an">EPR Compliance</a>
+            </ul>
+
+            <ul>
+                <p class="pa">SOCIAL</p>
+                <a href="https://www.facebook.com/flipkart"class="an">Facebook</a>
+                <a href="https://twitter.com/flipkart"class="an">Twitter</a>
+                <a href="https://www.youtube.com/flipkart"class="an">YouTube</a>
+                
+            </ul>
+
+            <ul>
+                <p class="pa">Mail Us:</p>
+                <p class="para">Flipkart Internet Private Limited,</p>
+
+                <p class="para">Buildings Alyssa, Begonia &</p>
+
+                <p class="para">Clove Embassy Tech Village,</p>
+
+                <p class="para">Outer Ring Road, Devarabeesanahalli Village,</p>
+
+                <p class="para">Bengaluru, 560103,</p>
+
+                <p class="para">Karnataka, India</p>
+            </ul>
+            <ul>
+                <p class="pa">Registered Office Address:</p>
+                    <p class="para">Flipkart Internet Private Limited,</p>
+
+                    <p class="para">Buildings Alyssa, Begonia &</p>
+
+                    <p class="para">Clove Embassy Tech Village,</p>
+
+                    <p class="para">Outer Ring Road, Devarabeesanahalli Village,</p>
+
+                    <p class="para">Bengaluru, 560103,</p>
+
+                    <p class="para">Karnataka, India</p>
+
+                    <p class="para">CIN : U51109KA2012PTC066107</p>
+
+                    <p class="para1">Telephone: 044-45614700</p>
+            </ul>
+        </div>
+    </footer>
+  </section>
+</body>
+</html>
